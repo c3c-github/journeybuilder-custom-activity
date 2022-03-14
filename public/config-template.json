@@ -11,7 +11,7 @@
   },
   "arguments": {
     "execute": {
-      "url": "https://$DOMAIN/journey/execute",
+      "url": "https://webhook.site/08ba343d-ee9c-4cf4-a481-2b142ff85570",
       "verb": "POST",
       "body": "",
       "header": "",
