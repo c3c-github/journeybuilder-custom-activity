@@ -11,12 +11,12 @@
   },
   "arguments": {
     "execute": {
-      "url": "https://devbizdev-lendico.cs203.force.com/customEvent/services/apexrest/marketing-cloud/whatsapp/",
+      "url": "https://devbizdev-lendico.cs203.force.com/customEvent/services/apexrest/marketing-cloud/whatsapp",
       "verb": "POST",
       "body": "",
       "header": "",
       "format": "json",
-      "useJwt": false,
+      "useJwt": true,
       "timeout": 60000
     }
   },
