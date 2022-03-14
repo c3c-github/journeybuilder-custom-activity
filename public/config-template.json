@@ -11,7 +11,7 @@
   },
   "arguments": {
     "execute": {
-      "url": "https://webhook.site/08ba343d-ee9c-4cf4-a481-2b142ff85570",
+      "url": "https://devbizdev-lendico.cs203.force.com/customEvent/services/apexrest/marketing-cloud/whatsapp/",
       "verb": "POST",
       "body": "",
       "header": "",
