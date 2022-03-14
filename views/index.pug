@@ -22,6 +22,14 @@ block content
               select#DropdownOptions.slds-select.js-activity-setting(name='dropdownOptions')
                 each dropdownOption in dropdownOptions
                   option(value=dropdownOption.value)= dropdownOption.name
+                  
+         .slds-form-element
+          label.slds-form-element__label(for="DropdownOptions2") Type
+          .slds-form-element__control
+            .slds-select_container
+              select#DropdownOptions.slds-select.js-activity-setting(name='dropdownOptions2')
+                each dropdownOption2 in dropdownOptions
+                  option(value=dropdownOption2.value)= dropdownOption2.name
               
           label.slds-form-element__label.slds-p-top_medium(for='Text')
             abbr.slds-required(title='required')
