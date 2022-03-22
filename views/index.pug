@@ -25,6 +25,16 @@ block content
             | Campo da DE que contem o número do celular: *
           .slds-form-element__control
             input#Celular.slds-input.js-activity-setting(required='true', placeholder='', name='celular')
+          label.slds-form-element__label.slds-p-top_medium(for='Namespace')
+            abbr.slds-required(title='required')
+            | Namespace do template Blip: *
+          .slds-form-element__control
+            input#Namespace.slds-input.js-activity-setting(required='true', placeholder='', name='namespace')
+          label.slds-form-element__label.slds-p-top_medium(for='Template')
+            abbr.slds-required(title='required')
+            | Template da Blip: *
+          .slds-form-element__control
+            input#Template.slds-input.js-activity-setting(required='true', placeholder='', name='Template')
             
 
     footer.slds-card__footer
