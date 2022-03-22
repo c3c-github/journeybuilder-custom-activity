@@ -110,6 +110,8 @@ function save() {
                 "contactKey": "{{Contact.Key}}"
             }
         ];
+        
+        console.log('payload: ',payload);
 
         $('.js-activity-setting').each(function () {
             const $el = $(this);
@@ -117,8 +119,14 @@ function save() {
                 id: $(this).attr('id'),
                 value: $(this).val()
             };
+            
+            console.log('setting: ',setting);
 
             $.each(payload['arguments'].execute.inArguments, function(index, value) {
+                
+                console.log('index: ',index);
+                console.log('value: ',value);
+                
                 if($el.attr('type') === 'checkbox') {
                     if($el.is(":checked")) {
                         value[setting.id] = setting.value;
@@ -132,5 +140,6 @@ function save() {
         });
 
         connection.trigger('updateActivity', payload);
+        
     }
 }
